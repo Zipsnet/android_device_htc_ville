@@ -100,3 +100,11 @@ PRODUCT_NAME := full_ville
 PRODUCT_BRAND := htc
 PRODUCT_MODEL := One S
 PRODUCT_MANUFACTURER := HTC
+
+# Specify phone tech before including full_phone
+$(call inherit-product, vendor/aokp/configs/gsm.mk)
+
+# Inherit some common aokp stuff.
+$(call inherit-product, vendor/aokp/configs/common.mk)
+$(call inherit-product, vendor/aokp/configs/common_versions.mk)
+
