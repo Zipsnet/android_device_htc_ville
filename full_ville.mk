@@ -96,7 +96,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 
 # Discard inherited values and use our own instead.
 PRODUCT_DEVICE := ville
-PRODUCT_NAME := ville
+PRODUCT_NAME := full_ville
 PRODUCT_BRAND := htc
 PRODUCT_MODEL := One S
 PRODUCT_MANUFACTURER := HTC

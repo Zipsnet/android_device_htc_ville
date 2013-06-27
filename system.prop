@@ -15,3 +15,28 @@ ro.ril.fast.dormancy.rule=1
 
 # UMS
 persist.sys.usb.config=mass_storage,adb
+
+# Non secure ROM
+ro.secure=0
+ro.adb.secure=0
+
+# Addidional info for Settings/About/Hardware
+ro.device.chipset=Qualcomm Snapdragon S4 MSM8260A
+ro.device.cpu=Dual-core 1.5 GHz Krait
+ro.device.gpu=Adreno 225
+ro.device.front_cam=1.3MP, 720p
+ro.device.rear_cam=8 MP, 3264x2448 pixels, autofocus, LED flash
+ro.device.screen_res=540 x 960 pixels, 4.3 inches 
+
+
+#ICJ rom info
+ro.icj.version=V11.12
+ro.icj.dev=ZipsNet
+ro.icj.kernel=ZipsNet
+ro.icj.themer=TUN_SD
+ro.icj.maintester=ZipsNet
+ro.icj.tester=ZipsNet
+
+# RC: cahrging LED always ON
+persist.sys.enable-charging-led=1
+
